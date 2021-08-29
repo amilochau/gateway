@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "organizationName": {
+      "value": "mil"
+    },
+    "applicationName": {
+      "value": "monitoring"
+    },
+    "environmentName": {
+      "value": "Development"
+    },
+    "hostName": {
+      "value": "dev"
+    },
+    "api": {
+      "value": {
+        "publisherEmail": "api@milochau.com",
+        "publisherName": "Antoine Milochau"
+      }
+    },
+    "monitoring": {
+      "value": {
+        "enableApplicationInsights": true,
+        "disableLocalAuth": false,
+        "dailyCap": "1",
+        "workspaceName": "mil-monitoring-prd-ws",
+        "workspaceResourceGroup": "mil-monitoring-prd-rg"
+      }
+    }
+  }
+}
