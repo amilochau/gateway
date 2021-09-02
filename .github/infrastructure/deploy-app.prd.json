@@ -9,10 +9,10 @@
       "value": "gateway"
     },
     "environmentName": {
-      "value": "Development"
+      "value": "Production"
     },
     "hostName": {
-      "value": "dev"
+      "value": "prd"
     },
     "api": {
       "value": {
