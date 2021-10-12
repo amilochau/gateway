@@ -8,26 +8,24 @@
     "applicationName": {
       "value": "gateway"
     },
-    "environmentName": {
-      "value": "Production"
-    },
     "hostName": {
       "value": "prd"
     },
-    "api": {
-      "value": {
-        "publisherEmail": "api@milochau.com",
-        "publisherName": "Antoine Milochau"
-      }
-    },
-    "monitoring": {
-      "value": {
-        "enableApplicationInsights": true,
-        "disableLocalAuth": false,
-        "dailyCap": "1",
-        "workspaceName": "mil-monitoring-prd-ws",
-        "workspaceResourceGroup": "mil-monitoring-prd-rg"
-      }
+    "apiPublisherName": {
+      "value":"Antoine Milochau"
+    }, 
+    "apiPublisherEmail": {
+      "value":"api@milochau.com"
+    }, 
+    "apiProducts": {
+      "value": [
+        {
+          "productName": "Wedding",
+          "productDescription": "APIs for wedding UI",
+          "subscriptionRequired": true,
+          "approvalRequired": true
+        }
+      ]
     }
   }
 }
