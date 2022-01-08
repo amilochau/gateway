@@ -24,6 +24,12 @@
           "productDescription": "APIs for wedding UI",
           "subscriptionRequired": true,
           "approvalRequired": true
+        },
+        {
+          "productName": "Trips",
+          "productDescription": "APIs for trips UI",
+          "subscriptionRequired": true,
+          "approvalRequired": true
         }
       ]
     }
