@@ -26,8 +26,8 @@
           "approvalRequired": true
         },
         {
-          "productName": "Trips",
-          "productDescription": "APIs for trips UI",
+          "productName": "Maps",
+          "productDescription": "APIs for maps UI",
           "subscriptionRequired": true,
           "approvalRequired": true
         }
