@@ -32,6 +32,9 @@
           "approvalRequired": true
         }
       ]
+    },
+    "apiCorsAuthorized": {
+      "value": "https://maps.milochau.com,https://www.milochau.com,https://milochau.com"
     }
   }
 }

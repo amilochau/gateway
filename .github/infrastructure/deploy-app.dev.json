@@ -32,6 +32,9 @@
           "approvalRequired": true
         }
       ]
+    },
+    "apiCorsAuthorized": {
+      "value": "http://localhost:3000,https://maps-dev.milochau.com,https://dev.milochau.com"
     }
   }
 }
