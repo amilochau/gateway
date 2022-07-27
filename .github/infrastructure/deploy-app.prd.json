@@ -30,6 +30,24 @@
           "productDescription": "APIs for maps UI",
           "subscriptionRequired": true,
           "approvalRequired": true
+        },
+        {
+          "productName": "Contacts",
+          "productDescription": "APIs for contacts UI",
+          "subscriptionRequired": true,
+          "approvalRequired": true
+        },
+        {
+          "productName": "Finance",
+          "productDescription": "APIs for finance UI",
+          "subscriptionRequired": true,
+          "approvalRequired": true
+        },
+        {
+          "productName": "Operations",
+          "productDescription": "APIs for operations UI",
+          "subscriptionRequired": true,
+          "approvalRequired": true
         }
       ]
     },
